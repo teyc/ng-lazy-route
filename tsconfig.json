@@ -19,6 +19,14 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
+    "paths": {
+      "ui-child": [
+        "dist/ui-child"
+      ],
+      "ui-parent": [
+        "dist/ui-parent"
+      ]
+    },
     "lib": [
       "ES2022",
       "dom"
