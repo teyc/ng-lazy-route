@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [{
   path: '',
   loadChildren: () =>
-    import('../../projects/ui-parent/src/lib/ui-parent/ui-parent.module').then(m => m.UiParentModule)
+    import('ui-parent').then(m => m.UiParentModule)
 }];
 
 @NgModule({

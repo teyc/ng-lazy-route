@@ -21,10 +21,12 @@
     "useDefineForClassFields": false,
     "paths": {
       "ui-child": [
-        "dist/ui-child"
+        // "dist/ui-child"
+        "projects/ui-child/src/public-api.ts"
       ],
       "ui-parent": [
-        "dist/ui-parent"
+        // "dist/ui-parent"
+        "projects/ui-parent/src/public-api.ts"
       ]
     },
     "lib": [

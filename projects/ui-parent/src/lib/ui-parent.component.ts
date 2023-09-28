@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
-import { UiChildComponent, UiChildService } from 'projects/ui-child/src/public-api';
+import { UiChildService } from 'ui-child';
 
 @Component({
   selector: 'lib-ui-parent',
   template: `
     <p>
       ui-parent works! (Answer is {{ answer }})
+      <lib-ui-child></lib-ui-child>
     </p>
   `,
-  styles: [
-  ],
 })
 export class UiParentComponent {
   answer: Number
